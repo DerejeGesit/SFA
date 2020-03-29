@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.sahalu.sfa.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen">
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sahalu.sfa.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_createOutletSaleFragment"
+            app:destination="@id/createOutletSaleFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_outletAmedmentFragment"
+            app:destination="@id/outletAmedmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.sahalu.sfa.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" />
+    <fragment
+        android:id="@+id/createOutletSaleFragment"
+        android:name="com.sahalu.sfa.CreateOutletSaleFragment"
+        android:label="fragment_create_outlet_sale"
+        tools:layout="@layout/fragment_create_outlet_sale" />
+    <fragment
+        android:id="@+id/outletAmedmentFragment"
+        android:name="com.sahalu.sfa.OutletAmedmentFragment"
+        android:label="fragment_outletamedment"
+        tools:layout="@layout/fragment_outletamedment" />
+</navigation>

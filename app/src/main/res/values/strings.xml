@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SFA</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="sfa">SFA</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="ubi_logo">UBI LOGO</string>
+    <string name="logout">Logout</string>
+    <string name="syncing">Syncing…</string>
+    <string name="syncing_body">Syncing your data with our servers. this might take a few minute</string>
+    <string name="existed_outlets_sale">Existed Outlets Sale</string>
+    <string name="_35m">35M</string>
+    <string name="_15m">15M</string>
+    <string name="near_by">Near By</string>
+    <string name="looking_for_coordinates_make_sure_location_is_on">Looking for coordinates, Make sure Location is on ...</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385576064062",
+    "firebase_url": "https://sfa-app-10918.firebaseio.com",
+    "project_id": "sfa-app-10918",
+    "storage_bucket": "sfa-app-10918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385576064062:android:326d185f5bcf4c51bb2d6f",
+        "android_client_info": {
+          "package_name": "com.sahalu.sfa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385576064062-9dioluf7e0b1jn5cm6jih7ov8pm9jib3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahalu.sfa",
+            "certificate_hash": "05622e75792f804af21afb39a11b5b8c6d97b6cc"
+          }
+        },
+        {
+          "client_id": "385576064062-fuupa2n973pe5f718gtljbe76tdmtrc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFlVzlOneT7cPgGwMjI1NylxHHJKmEncQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385576064062-fuupa2n973pe5f718gtljbe76tdmtrc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
